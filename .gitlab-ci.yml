@@ -1,0 +1,24 @@
+.job_template: &job_deploy
+  stage: deploy
+  before_script:
+    - npm install
+    - npm i -g envinfo && envinfo
+  tags:
+    - rn-build
+  after_script:
+    - cp android/app/build/outputs/apk/release/app-release.apk $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME.$FILE_TYPE
+  artifacts:
+    name: "$CI_PROJECT_NAME-$PLATFORM-$CI_COMMIT_REF_NAME"
+    paths:
+      - $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME.$FILE_TYPE
+    expire_in: 7 days
+
+deploy:android:prod:
+  variables:
+    PLATFORM: android
+    FILE_TYPE: apk
+    OUTPUT_PATH: android/app/build/outputs/apk/release/
+  <<: *job_deploy
+  script:
+    - cd android && chmod +x gradlew && cd ..
+    - cd android && ./gradlew assembleRelease -PMYAPP_RELEASE_STORE_PASSWORD=$KEYSTORE_PASSWORD -PMYAPP_RELEASE_KEY_PASSWORD=$KEYSTORE_PASSWORD

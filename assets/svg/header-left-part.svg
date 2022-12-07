@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>QWEQWEQWEQWEQWEQWEQWEQWEQWEQWEQW</title>
+    <defs>
+        <linearGradient x1="85.4974458%" y1="9.29014082%" x2="11.885896%" y2="12.0953192%" id="linearGradient-1">
+            <stop stop-color="#FF9D8B" offset="4.89000008%"></stop>
+            <stop stop-color="#FA166A" offset="48.8900006%"></stop>
+            <stop stop-color="#F5166A" offset="56.7499995%"></stop>
+            <stop stop-color="#E8166A" offset="65.4999971%"></stop>
+            <stop stop-color="#D2166A" offset="74.6900022%"></stop>
+            <stop stop-color="#B3166A" offset="84.1700017%"></stop>
+            <stop stop-color="#8B166A" offset="93.7900007%"></stop>
+            <stop stop-color="#73166A" offset="98.8300025%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="QWEQWEQWEQWEQWEQWEQWEQWEQWEQWEQW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-43.999976, -134.000000)">
+            <path d="M43.9999755,134 L793.999976,134 L793.999976,262 L43.9999755,262 L43.9999755,134 Z" id="Header-(Background)"></path>
+            <g id="Background">
+                <path d="M43.9999755,134 L793.999976,134 L793.999976,262 L43.9999755,262 L43.9999755,134 Z" id="Background-(Background)"></path>
+                <path d="M43.0277593,292.106232 C59.5963018,292.106232 73.0277593,278.227059 73.0277593,261.106232 C73.0277593,243.985405 59.5963018,230.106232 43.0277593,230.106232 C26.4592168,230.106232 13.0277593,243.985405 13.0277593,261.106232 C13.0277593,278.227059 26.4592168,292.106232 43.0277593,292.106232 Z" id="Oval" fill="url(#linearGradient-1)" transform="translate(43.027759, 261.106232) rotate(138.182062) translate(-43.027759, -261.106232) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

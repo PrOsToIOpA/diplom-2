@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>QWEQWEQWEQWEQWEQWEQWEQWEQWEQWEQW</title>
+    <defs>
+        <linearGradient x1="83.437722%" y1="9.42731405%" x2="10.9487531%" y2="12.0624987%" id="linearGradient-1">
+            <stop stop-color="#FF9D8B" offset="0%"></stop>
+            <stop stop-color="#FA166A" offset="48.8900006%"></stop>
+            <stop stop-color="#F5166A" offset="56.7499995%"></stop>
+            <stop stop-color="#E8166A" offset="65.4999971%"></stop>
+            <stop stop-color="#D2166A" offset="74.6900022%"></stop>
+            <stop stop-color="#B3166A" offset="84.1700017%"></stop>
+            <stop stop-color="#8B166A" offset="93.7900007%"></stop>
+            <stop stop-color="#73166A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="QWEQWEQWEQWEQWEQWEQWEQWEQWEQWEQW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-665.999976, -134.000000)">
+            <path d="M43.9999755,134 L793.999976,134 L793.999976,262 L43.9999755,262 L43.9999755,134 Z" id="Header-(Background)"></path>
+            <g id="Background" transform="translate(0.000000, 0.000000)">
+                <path d="M43.9999755,134 L793.999976,134 L793.999976,262 L43.9999755,262 L43.9999755,134 Z" id="Background-(Background)"></path>
+                <path d="M815.999976,218 C875.646729,218 923.999976,169.199038 923.999976,109 C923.999976,48.8009623 875.646729,0 815.999976,0 C756.353223,0 707.999976,48.8009623 707.999976,109 C707.999976,169.199038 756.353223,218 815.999976,218 Z" id="Oval" fill="url(#linearGradient-1)"></path>
+                <path d="M712.999976,154 C724.597955,154 733.999976,144.59798 733.999976,133 C733.999976,121.40202 724.597955,112 712.999976,112 C701.401996,112 691.999976,121.40202 691.999976,133 C691.999976,144.59798 701.401996,154 712.999976,154 Z" id="Oval" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="0,0"></path>
+            </g>
+        </g>
+    </g>
+</svg>

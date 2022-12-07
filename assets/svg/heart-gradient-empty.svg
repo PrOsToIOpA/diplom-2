@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="104px" viewBox="0 0 120 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M120,33.1790467 C120,53.3680989 99.9994981,76.869914 59.9984943,103.684492 C19.9994981,77.8364393 0,54.3345321 0,33.1787706 C0,10.3678155 14.8574964,0 33.1789624,0 C44.2153171,0 53.9641615,5.41238238 59.9984943,13.6991264 C66.0336494,5.41238238 75.7841329,0 86.8177459,0 C105.142775,0 120,14.8575342 120,33.1790467 Z" id="path-1" />
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="120" height="103.684492" fill="white">
+            <use xlink:href="#path-1" />
+        </mask>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,0">
+        <g fill-rule="nonzero" stroke="#FB2C6F" stroke-width="12">
+            <use id="Vector" mask="url(#mask-2)" xlink:href="#path-1" />
+        </g>
+    </g>
+</svg>

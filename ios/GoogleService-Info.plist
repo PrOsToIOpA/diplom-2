@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>64058144301-1ae72n1un4597m3uvuod78ieord759go.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.64058144301-1ae72n1un4597m3uvuod78ieord759go</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>64058144301-uj9lmf7pbdmsun293a04kogcu8jrpt91.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC9Sv_66PzEs68oozk7mBPMeidjsieGvnE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>64058144301</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.raboom.affiliate.app</string>
+	<key>PROJECT_ID</key>
+	<string>raboom-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>raboom-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:64058144301:ios:db078217f73b99fa0ceaa4</string>
+</dict>
+</plist>

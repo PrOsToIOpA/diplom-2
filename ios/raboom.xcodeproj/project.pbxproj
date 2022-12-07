@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* raboomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* raboomTests.m */; };
+		04D9AC5BF73214E25857FEC5 /* libPods-raboom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B592DDC7030FBA1B71DB96 /* libPods-raboom.a */; };
+		0A0974A1003B4EB6B62269CD /* Helvetica-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 681612A029034688B0A732DE /* Helvetica-BoldItalic.ttf */; };
+		0BC6ACF7904E45FDA04EADC7 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8895ED9712D24C95847C85FE /* Poppins-ExtraLight.ttf */; };
+		116ED615FE8F40318153B766 /* Helvetica-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD725AF0A4064C6DA69448B8 /* Helvetica-BlackItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		182C4409CC4F4D9A974CAE43 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1138292CF79A42CBB3A20E1B /* Poppins-ExtraBold.ttf */; };
+		18D36246338249F09501BC03 /* Helvetica-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0122FB9EE09941B1A736257E /* Helvetica-Black.ttf */; };
+		1B85F4D2FDBD4D39A409CCFE /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6B68EB963542CEB9A9D705 /* SFProDisplay-Semibold.ttf */; };
+		1FCA32F42F59474CAAE2B605 /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3EFE687CA0436C93C8649F /* SFProDisplay-RegularItalic.ttf */; };
+		28B405B7E7BC45D2B52462E0 /* SFProDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05DEDCA4457640958A3D5237 /* SFProDisplay-Light.ttf */; };
+		2C1534AB26D00085009309E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C15348B26CFEB21009309E1 /* MessageUI.framework */; };
+		2C1534AC26D00093009309E1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C15348926CFEB16009309E1 /* Social.framework */; };
+		2C8D616526B2C9F6004565B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D616426B2C9F6004565B6 /* GoogleService-Info.plist */; };
+		2C8D616626B2C9F6004565B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D616426B2C9F6004565B6 /* GoogleService-Info.plist */; };
+		2CAAF0A426A70086007BFF01 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAAF0A326A70086007BFF01 /* Launch Screen.storyboard */; };
+		302BF9FF4CB0458F856BAB53 /* SFProDisplay-UltralightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE01A573EE24ACC80A80C5B /* SFProDisplay-UltralightItalic.ttf */; };
+		3A0AF205ED6B41BFA6A8E5DE /* Helvetica-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC22D9114BAE47F09B7CC10F /* Helvetica-Medium.ttf */; };
+		3C177FE979AD446A9233E2C1 /* SFProDisplay-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBEAC15163E24625BC6B696C /* SFProDisplay-ThinItalic.ttf */; };
+		3FD9E90ABD40417483AB50BD /* Helvetica-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6A4D3E37CF4EE6A0F46D47 /* Helvetica-ThinItalic.ttf */; };
+		40E452E9C92F4768B6316931 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE4BCBE61CD4805833836FA /* SFProDisplay-Medium.ttf */; };
+		4B065C224A7C488BA4C20FBB /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F0D67786F0E4D82948BE356 /* Poppins-LightItalic.ttf */; };
+		4D04DDE67C91445CB72F9911 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11472783DDA4256AB5C5E1E /* Poppins-BoldItalic.ttf */; };
+		50816460F2C140F18545E157 /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D7DFE505AA4B5C89118B82 /* SFProDisplay-Regular.ttf */; };
+		5CA55102792948CDA33268B3 /* Helvetica-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F0DC563AC23479BAC494827 /* Helvetica-HeavyItalic.ttf */; };
+		5CB6DC81A1FB4331B0DA3A3A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F87439B91D463B80904E72 /* Poppins-SemiBold.ttf */; };
+		633743460D0A41208360CD85 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EE6EFA06FEA4B72BA640815 /* Helvetica-Bold.ttf */; };
+		6BAF823C663E4BC7ADBF4362 /* SFProDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAD54A1E96EE4E85864D1564 /* SFProDisplay-Thin.ttf */; };
+		6BE3F967591C49E49F69430C /* SFProDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0320FF8732EA4F3EA8F90CBA /* SFProDisplay-Black.ttf */; };
+		6D5948CC9832452998FF7393 /* Helvetica-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D2F04098FC4446F90849A7D /* Helvetica-Light.ttf */; };
+		6EF64CC5ED3C44AFBE921A59 /* SFProDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1E04A378B5B4A329D1A2F47 /* SFProDisplay-MediumItalic.ttf */; };
+		6F71981975434A9293CD0F1A /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ECDBBD789A64BFCB4D10D40 /* SFProDisplay-Bold.ttf */; };
+		7911EF5F2A684A528386DE8E /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9071E43A7F5C4171B1EFB0C2 /* Poppins-Medium.ttf */; };
+		7D9DF365C3CE4DF882BE8318 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF56073B48B4DD4B94F2D32 /* Poppins-Regular.ttf */; };
+		8636789772F14C4B97BC0E0A /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 393C6C2B236241DEA59BCD35 /* Poppins-ExtraBoldItalic.ttf */; };
+		877DE9F3301F4DFC8F5279C8 /* SFProDisplay-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 423719074DE9439A9466FF82 /* SFProDisplay-SemiboldItalic.ttf */; };
+		879B528C02254F9A8C7FEEA7 /* Helvetica-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45697678509F4474BC70CD23 /* Helvetica-Heavy.ttf */; };
+		8E690449070C454F9EEEF649 /* SFProDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C364EDC68E249F397B0FE1B /* SFProDisplay-BlackItalic.ttf */; };
+		9277D7278391407ABE45F7E8 /* Helvetica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A8BDC30B23946DC8F9F3399 /* Helvetica-Regular.ttf */; };
+		9370BC9C482647EC8BA5D204 /* Helvetica-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5799CBB48D24749A7A410D4 /* Helvetica-MediumItalic.ttf */; };
+		945F992F02EE4D8693B9C225 /* Helvetica-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AEB1A22BF144CE396B4EA2E /* Helvetica-RegularItalic.ttf */; };
+		96A69AD595CE4824AB21E6BF /* Helvetica-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4693804E5AEF4208AB97DA7F /* Helvetica-UltraLight.ttf */; };
+		9B07AD03E77F4D3E91FA9ED5 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15FE01DA0D294CDFAE625217 /* Poppins-Light.ttf */; };
+		9B3B6352825E44F398AF0C5C /* SFProDisplay-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D6AFD11FC6E432CA42D5892 /* SFProDisplay-LightItalic.ttf */; };
+		9C6C915D9E4F415DBA8F1980 /* Helvetica-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A733C30577F74CC481835E42 /* Helvetica-LightItalic.ttf */; };
+		9D4AB039A1D840849264FAEE /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACDD0479D3DA4760B99C10A4 /* Poppins-SemiBoldItalic.ttf */; };
+		9F8911392F264ED6816A1826 /* SFProDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D28AEB7BCC884792BB77A1A3 /* SFProDisplay-BoldItalic.ttf */; };
+		A1D41A5D19904ACC9F27BE27 /* SFProDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8EE3ABAC3E941EF897FC258 /* SFProDisplay-Heavy.ttf */; };
+		A590D258584D4EEAB6F08B6F /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC037E926BDE4079B3536518 /* Poppins-Italic.ttf */; };
+		AA12AB3F9452AE399DDF3850 /* libPods-raboom-raboomTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 880CB99EBE9424DCB334BCF5 /* libPods-raboom-raboomTests.a */; };
+		AE8C1054831F42B29ED55391 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5073E5A2CDA44BBBF9F628A /* Poppins-ExtraLightItalic.ttf */; };
+		B40B6F6B26D2436CBED5DC67 /* Helvetica-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C412E123D84AF7926081CE /* Helvetica-Thin.ttf */; };
+		C027959BDEF7489F95DC6085 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1018934A68443A8B74C2D80 /* Poppins-MediumItalic.ttf */; };
+		C23C36A3583F47E88B6FF2F6 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 818195E51D0B4B0F8E725D62 /* Poppins-BlackItalic.ttf */; };
+		C79FA32DC2204573B9F688D6 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 896FAFCE2E04438DABD2039D /* Poppins-Thin.ttf */; };
+		C81A5CCBF60645C2AD8DA1EC /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5CF43149B884E6FA7B72D25 /* SFProDisplay-Ultralight.ttf */; };
+		C94418CF853343C68FEAEFBA /* SFProDisplay-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D8F745AFB6A44DDB9F4493F /* SFProDisplay-HeavyItalic.ttf */; };
+		CBC1C404FC504C3EA84A2710 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63DE67CD60784653A91DA920 /* Poppins-Bold.ttf */; };
+		D6C55F80EA9A407BAB6309F4 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97E7A1B3D38241F79B4F8802 /* Poppins-Black.ttf */; };
+		E2EA4A7EF2E04CCA9C69877B /* Helvetica-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C05F7888646348EFB7F57ACC /* Helvetica-UltraLightItalic.ttf */; };
+		F8E4A35BAA5D4CE4A6CE2C3A /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A087DBEAB014589A4E44C08 /* Poppins-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = raboom;
+		};
+		2C15348626CFE8CD009309E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C15348226CFE8CD009309E1 /* RNShare.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* raboomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raboomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* raboomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = raboomTests.m; sourceTree = "<group>"; };
+		0122FB9EE09941B1A736257E /* Helvetica-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Black.ttf"; path = "../assets/fonts/Helvetica-Black.ttf"; sourceTree = "<group>"; };
+		0320FF8732EA4F3EA8F90CBA /* SFProDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Black.ttf"; path = "../assets/fonts/SFProDisplay-Black.ttf"; sourceTree = "<group>"; };
+		04F87439B91D463B80904E72 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		05DEDCA4457640958A3D5237 /* SFProDisplay-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Light.ttf"; path = "../assets/fonts/SFProDisplay-Light.ttf"; sourceTree = "<group>"; };
+		0A3EFE687CA0436C93C8649F /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-RegularItalic.ttf"; path = "../assets/fonts/SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		0AE01A573EE24ACC80A80C5B /* SFProDisplay-UltralightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-UltralightItalic.ttf"; path = "../assets/fonts/SFProDisplay-UltralightItalic.ttf"; sourceTree = "<group>"; };
+		0D6AFD11FC6E432CA42D5892 /* SFProDisplay-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-LightItalic.ttf"; path = "../assets/fonts/SFProDisplay-LightItalic.ttf"; sourceTree = "<group>"; };
+		1138292CF79A42CBB3A20E1B /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* raboom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raboom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = raboom/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = raboom/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = raboom/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = raboom/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = raboom/main.m; sourceTree = "<group>"; };
+		15FE01DA0D294CDFAE625217 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		1A087DBEAB014589A4E44C08 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		1C364EDC68E249F397B0FE1B /* SFProDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-BlackItalic.ttf"; path = "../assets/fonts/SFProDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1D2F04098FC4446F90849A7D /* Helvetica-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Light.ttf"; path = "../assets/fonts/Helvetica-Light.ttf"; sourceTree = "<group>"; };
+		2AEB1A22BF144CE396B4EA2E /* Helvetica-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-RegularItalic.ttf"; path = "../assets/fonts/Helvetica-RegularItalic.ttf"; sourceTree = "<group>"; };
+		2C15348226CFE8CD009309E1 /* RNShare.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNShare.xcodeproj; path = "../node_modules/react-native-share/ios/RNShare.xcodeproj"; sourceTree = "<group>"; };
+		2C15348926CFEB16009309E1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2C15348B26CFEB21009309E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2C15348D26CFF478009309E1 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1534A026CFFD3E009309E1 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1534A826D0004F009309E1 /* libRNShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C41379A27451308009565CE /* raboomRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = raboomRelease.entitlements; path = raboom/raboomRelease.entitlements; sourceTree = "<group>"; };
+		2C71D8C227355A48003F940E /* raboomDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = raboomDebug.entitlements; path = raboom/raboomDebug.entitlements; sourceTree = "<group>"; };
+		2C8D616426B2C9F6004565B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CAAF0A326A70086007BFF01 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2D8F745AFB6A44DDB9F4493F /* SFProDisplay-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-HeavyItalic.ttf"; path = "../assets/fonts/SFProDisplay-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		2ECDBBD789A64BFCB4D10D40 /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Bold.ttf"; path = "../assets/fonts/SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		393C6C2B236241DEA59BCD35 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		423719074DE9439A9466FF82 /* SFProDisplay-SemiboldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-SemiboldItalic.ttf"; path = "../assets/fonts/SFProDisplay-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		44C412E123D84AF7926081CE /* Helvetica-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Thin.ttf"; path = "../assets/fonts/Helvetica-Thin.ttf"; sourceTree = "<group>"; };
+		45697678509F4474BC70CD23 /* Helvetica-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Heavy.ttf"; path = "../assets/fonts/Helvetica-Heavy.ttf"; sourceTree = "<group>"; };
+		46410DBDA400B21C67CE85F4 /* Pods-raboom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raboom.debug.xcconfig"; path = "Target Support Files/Pods-raboom/Pods-raboom.debug.xcconfig"; sourceTree = "<group>"; };
+		4693804E5AEF4208AB97DA7F /* Helvetica-UltraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-UltraLight.ttf"; path = "../assets/fonts/Helvetica-UltraLight.ttf"; sourceTree = "<group>"; };
+		48B592DDC7030FBA1B71DB96 /* libPods-raboom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-raboom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8BDC30B23946DC8F9F3399 /* Helvetica-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Regular.ttf"; path = "../assets/fonts/Helvetica-Regular.ttf"; sourceTree = "<group>"; };
+		4EF56073B48B4DD4B94F2D32 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		54D7DFE505AA4B5C89118B82 /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Regular.ttf"; path = "../assets/fonts/SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		5F0D67786F0E4D82948BE356 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		5F0DC563AC23479BAC494827 /* Helvetica-HeavyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-HeavyItalic.ttf"; path = "../assets/fonts/Helvetica-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		63DE67CD60784653A91DA920 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		681612A029034688B0A732DE /* Helvetica-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-BoldItalic.ttf"; path = "../assets/fonts/Helvetica-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6E6B68EB963542CEB9A9D705 /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Semibold.ttf"; path = "../assets/fonts/SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		6ED73F98BCCA613787965300 /* Pods-raboom-raboomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raboom-raboomTests.debug.xcconfig"; path = "Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72572B320EDCAF3E43B24011 /* Pods-raboom-raboomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raboom-raboomTests.release.xcconfig"; path = "Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests.release.xcconfig"; sourceTree = "<group>"; };
+		7EE6EFA06FEA4B72BA640815 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		818195E51D0B4B0F8E725D62 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		880CB99EBE9424DCB334BCF5 /* libPods-raboom-raboomTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-raboom-raboomTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8895ED9712D24C95847C85FE /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		896FAFCE2E04438DABD2039D /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		9071E43A7F5C4171B1EFB0C2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		97E7A1B3D38241F79B4F8802 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		A733C30577F74CC481835E42 /* Helvetica-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-LightItalic.ttf"; path = "../assets/fonts/Helvetica-LightItalic.ttf"; sourceTree = "<group>"; };
+		AAD54A1E96EE4E85864D1564 /* SFProDisplay-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Thin.ttf"; path = "../assets/fonts/SFProDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		ACDD0479D3DA4760B99C10A4 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B5799CBB48D24749A7A410D4 /* Helvetica-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-MediumItalic.ttf"; path = "../assets/fonts/Helvetica-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BC22D9114BAE47F09B7CC10F /* Helvetica-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Medium.ttf"; path = "../assets/fonts/Helvetica-Medium.ttf"; sourceTree = "<group>"; };
+		BE6A4D3E37CF4EE6A0F46D47 /* Helvetica-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-ThinItalic.ttf"; path = "../assets/fonts/Helvetica-ThinItalic.ttf"; sourceTree = "<group>"; };
+		C05F7888646348EFB7F57ACC /* Helvetica-UltraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-UltraLightItalic.ttf"; path = "../assets/fonts/Helvetica-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		C11472783DDA4256AB5C5E1E /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C5073E5A2CDA44BBBF9F628A /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C5CF43149B884E6FA7B72D25 /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Ultralight.ttf"; path = "../assets/fonts/SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		D1E04A378B5B4A329D1A2F47 /* SFProDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-MediumItalic.ttf"; path = "../assets/fonts/SFProDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D28AEB7BCC884792BB77A1A3 /* SFProDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-BoldItalic.ttf"; path = "../assets/fonts/SFProDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D5894FF3E0AC8AA1CAB9874B /* Pods-raboom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-raboom.release.xcconfig"; path = "Target Support Files/Pods-raboom/Pods-raboom.release.xcconfig"; sourceTree = "<group>"; };
+		D8EE3ABAC3E941EF897FC258 /* SFProDisplay-Heavy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Heavy.ttf"; path = "../assets/fonts/SFProDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		DAE4BCBE61CD4805833836FA /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Medium.ttf"; path = "../assets/fonts/SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		DC037E926BDE4079B3536518 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		E1018934A68443A8B74C2D80 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EBEAC15163E24625BC6B696C /* SFProDisplay-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-ThinItalic.ttf"; path = "../assets/fonts/SFProDisplay-ThinItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD725AF0A4064C6DA69448B8 /* Helvetica-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-BlackItalic.ttf"; path = "../assets/fonts/Helvetica-BlackItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA12AB3F9452AE399DDF3850 /* libPods-raboom-raboomTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D9AC5BF73214E25857FEC5 /* libPods-raboom.a in Frameworks */,
+				2C1534AB26D00085009309E1 /* MessageUI.framework in Frameworks */,
+				2C1534AC26D00093009309E1 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* raboomTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* raboomTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = raboomTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* raboom */ = {
+			isa = PBXGroup;
+			children = (
+				2C41379A27451308009565CE /* raboomRelease.entitlements */,
+				2C71D8C227355A48003F940E /* raboomDebug.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = raboom;
+			sourceTree = "<group>";
+		};
+		2C15348326CFE8CD009309E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C15348726CFE8CD009309E1 /* libRNShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C1534A826D0004F009309E1 /* libRNShare.a */,
+				2C1534A026CFFD3E009309E1 /* libRNShare.a */,
+				2C15348D26CFF478009309E1 /* libRNShare.a */,
+				2C15348B26CFEB21009309E1 /* MessageUI.framework */,
+				2C15348926CFEB16009309E1 /* Social.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				48B592DDC7030FBA1B71DB96 /* libPods-raboom.a */,
+				880CB99EBE9424DCB334BCF5 /* libPods-raboom-raboomTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EEA75510114367901EDE0B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46410DBDA400B21C67CE85F4 /* Pods-raboom.debug.xcconfig */,
+				D5894FF3E0AC8AA1CAB9874B /* Pods-raboom.release.xcconfig */,
+				6ED73F98BCCA613787965300 /* Pods-raboom-raboomTests.debug.xcconfig */,
+				72572B320EDCAF3E43B24011 /* Pods-raboom-raboomTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2C15348226CFE8CD009309E1 /* RNShare.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				2C8D616426B2C9F6004565B6 /* GoogleService-Info.plist */,
+				2CAAF0A326A70086007BFF01 /* Launch Screen.storyboard */,
+				13B07FAE1A68108700A75B9A /* raboom */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* raboomTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				7EEA75510114367901EDE0B4 /* Pods */,
+				83EC6CF0C9DA4E27A44ED85F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* raboom.app */,
+				00E356EE1AD99517003FC87E /* raboomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EC6CF0C9DA4E27A44ED85F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				97E7A1B3D38241F79B4F8802 /* Poppins-Black.ttf */,
+				818195E51D0B4B0F8E725D62 /* Poppins-BlackItalic.ttf */,
+				63DE67CD60784653A91DA920 /* Poppins-Bold.ttf */,
+				C11472783DDA4256AB5C5E1E /* Poppins-BoldItalic.ttf */,
+				1138292CF79A42CBB3A20E1B /* Poppins-ExtraBold.ttf */,
+				393C6C2B236241DEA59BCD35 /* Poppins-ExtraBoldItalic.ttf */,
+				8895ED9712D24C95847C85FE /* Poppins-ExtraLight.ttf */,
+				C5073E5A2CDA44BBBF9F628A /* Poppins-ExtraLightItalic.ttf */,
+				DC037E926BDE4079B3536518 /* Poppins-Italic.ttf */,
+				15FE01DA0D294CDFAE625217 /* Poppins-Light.ttf */,
+				5F0D67786F0E4D82948BE356 /* Poppins-LightItalic.ttf */,
+				9071E43A7F5C4171B1EFB0C2 /* Poppins-Medium.ttf */,
+				E1018934A68443A8B74C2D80 /* Poppins-MediumItalic.ttf */,
+				4EF56073B48B4DD4B94F2D32 /* Poppins-Regular.ttf */,
+				04F87439B91D463B80904E72 /* Poppins-SemiBold.ttf */,
+				ACDD0479D3DA4760B99C10A4 /* Poppins-SemiBoldItalic.ttf */,
+				896FAFCE2E04438DABD2039D /* Poppins-Thin.ttf */,
+				1A087DBEAB014589A4E44C08 /* Poppins-ThinItalic.ttf */,
+				0320FF8732EA4F3EA8F90CBA /* SFProDisplay-Black.ttf */,
+				1C364EDC68E249F397B0FE1B /* SFProDisplay-BlackItalic.ttf */,
+				2ECDBBD789A64BFCB4D10D40 /* SFProDisplay-Bold.ttf */,
+				D28AEB7BCC884792BB77A1A3 /* SFProDisplay-BoldItalic.ttf */,
+				D8EE3ABAC3E941EF897FC258 /* SFProDisplay-Heavy.ttf */,
+				2D8F745AFB6A44DDB9F4493F /* SFProDisplay-HeavyItalic.ttf */,
+				05DEDCA4457640958A3D5237 /* SFProDisplay-Light.ttf */,
+				0D6AFD11FC6E432CA42D5892 /* SFProDisplay-LightItalic.ttf */,
+				DAE4BCBE61CD4805833836FA /* SFProDisplay-Medium.ttf */,
+				D1E04A378B5B4A329D1A2F47 /* SFProDisplay-MediumItalic.ttf */,
+				54D7DFE505AA4B5C89118B82 /* SFProDisplay-Regular.ttf */,
+				0A3EFE687CA0436C93C8649F /* SFProDisplay-RegularItalic.ttf */,
+				6E6B68EB963542CEB9A9D705 /* SFProDisplay-Semibold.ttf */,
+				423719074DE9439A9466FF82 /* SFProDisplay-SemiboldItalic.ttf */,
+				AAD54A1E96EE4E85864D1564 /* SFProDisplay-Thin.ttf */,
+				EBEAC15163E24625BC6B696C /* SFProDisplay-ThinItalic.ttf */,
+				C5CF43149B884E6FA7B72D25 /* SFProDisplay-Ultralight.ttf */,
+				0AE01A573EE24ACC80A80C5B /* SFProDisplay-UltralightItalic.ttf */,
+				0122FB9EE09941B1A736257E /* Helvetica-Black.ttf */,
+				FD725AF0A4064C6DA69448B8 /* Helvetica-BlackItalic.ttf */,
+				7EE6EFA06FEA4B72BA640815 /* Helvetica-Bold.ttf */,
+				681612A029034688B0A732DE /* Helvetica-BoldItalic.ttf */,
+				45697678509F4474BC70CD23 /* Helvetica-Heavy.ttf */,
+				5F0DC563AC23479BAC494827 /* Helvetica-HeavyItalic.ttf */,
+				1D2F04098FC4446F90849A7D /* Helvetica-Light.ttf */,
+				A733C30577F74CC481835E42 /* Helvetica-LightItalic.ttf */,
+				BC22D9114BAE47F09B7CC10F /* Helvetica-Medium.ttf */,
+				B5799CBB48D24749A7A410D4 /* Helvetica-MediumItalic.ttf */,
+				4A8BDC30B23946DC8F9F3399 /* Helvetica-Regular.ttf */,
+				2AEB1A22BF144CE396B4EA2E /* Helvetica-RegularItalic.ttf */,
+				44C412E123D84AF7926081CE /* Helvetica-Thin.ttf */,
+				BE6A4D3E37CF4EE6A0F46D47 /* Helvetica-ThinItalic.ttf */,
+				4693804E5AEF4208AB97DA7F /* Helvetica-UltraLight.ttf */,
+				C05F7888646348EFB7F57ACC /* Helvetica-UltraLightItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* raboomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "raboomTests" */;
+			buildPhases = (
+				6DC87392DE4A757C2ACC5BB0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				4C9C0360DEE376673D910E76 /* [CP] Embed Pods Frameworks */,
+				094BF3837F9B8771CDAD4B7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = raboomTests;
+			productName = raboomTests;
+			productReference = 00E356EE1AD99517003FC87E /* raboomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* raboom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "raboom" */;
+			buildPhases = (
+				C82EFE0F4518CE2FDA1D0ECF /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				86896C91FF9972C190D2224D /* [CP] Embed Pods Frameworks */,
+				8C52F626963683A99EAA5C3B /* [CP] Copy Pods Resources */,
+				EE257044E8D19AA97D80992E /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raboom;
+			productName = raboom;
+			productReference = 13B07F961A680F5B00A75B9A /* raboom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "raboom" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2C15348326CFE8CD009309E1 /* Products */;
+					ProjectRef = 2C15348226CFE8CD009309E1 /* RNShare.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* raboom */,
+				00E356ED1AD99517003FC87E /* raboomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2C15348726CFE8CD009309E1 /* libRNShare.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNShare.a;
+			remoteRef = 2C15348626CFE8CD009309E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8D616626B2C9F6004565B6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D6C55F80EA9A407BAB6309F4 /* Poppins-Black.ttf in Resources */,
+				C23C36A3583F47E88B6FF2F6 /* Poppins-BlackItalic.ttf in Resources */,
+				CBC1C404FC504C3EA84A2710 /* Poppins-Bold.ttf in Resources */,
+				4D04DDE67C91445CB72F9911 /* Poppins-BoldItalic.ttf in Resources */,
+				182C4409CC4F4D9A974CAE43 /* Poppins-ExtraBold.ttf in Resources */,
+				8636789772F14C4B97BC0E0A /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				0BC6ACF7904E45FDA04EADC7 /* Poppins-ExtraLight.ttf in Resources */,
+				AE8C1054831F42B29ED55391 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				A590D258584D4EEAB6F08B6F /* Poppins-Italic.ttf in Resources */,
+				9B07AD03E77F4D3E91FA9ED5 /* Poppins-Light.ttf in Resources */,
+				4B065C224A7C488BA4C20FBB /* Poppins-LightItalic.ttf in Resources */,
+				7911EF5F2A684A528386DE8E /* Poppins-Medium.ttf in Resources */,
+				C027959BDEF7489F95DC6085 /* Poppins-MediumItalic.ttf in Resources */,
+				7D9DF365C3CE4DF882BE8318 /* Poppins-Regular.ttf in Resources */,
+				5CB6DC81A1FB4331B0DA3A3A /* Poppins-SemiBold.ttf in Resources */,
+				9D4AB039A1D840849264FAEE /* Poppins-SemiBoldItalic.ttf in Resources */,
+				C79FA32DC2204573B9F688D6 /* Poppins-Thin.ttf in Resources */,
+				F8E4A35BAA5D4CE4A6CE2C3A /* Poppins-ThinItalic.ttf in Resources */,
+				6BE3F967591C49E49F69430C /* SFProDisplay-Black.ttf in Resources */,
+				8E690449070C454F9EEEF649 /* SFProDisplay-BlackItalic.ttf in Resources */,
+				6F71981975434A9293CD0F1A /* SFProDisplay-Bold.ttf in Resources */,
+				9F8911392F264ED6816A1826 /* SFProDisplay-BoldItalic.ttf in Resources */,
+				A1D41A5D19904ACC9F27BE27 /* SFProDisplay-Heavy.ttf in Resources */,
+				C94418CF853343C68FEAEFBA /* SFProDisplay-HeavyItalic.ttf in Resources */,
+				28B405B7E7BC45D2B52462E0 /* SFProDisplay-Light.ttf in Resources */,
+				9B3B6352825E44F398AF0C5C /* SFProDisplay-LightItalic.ttf in Resources */,
+				40E452E9C92F4768B6316931 /* SFProDisplay-Medium.ttf in Resources */,
+				6EF64CC5ED3C44AFBE921A59 /* SFProDisplay-MediumItalic.ttf in Resources */,
+				50816460F2C140F18545E157 /* SFProDisplay-Regular.ttf in Resources */,
+				2CAAF0A426A70086007BFF01 /* Launch Screen.storyboard in Resources */,
+				1FCA32F42F59474CAAE2B605 /* SFProDisplay-RegularItalic.ttf in Resources */,
+				1B85F4D2FDBD4D39A409CCFE /* SFProDisplay-Semibold.ttf in Resources */,
+				877DE9F3301F4DFC8F5279C8 /* SFProDisplay-SemiboldItalic.ttf in Resources */,
+				6BAF823C663E4BC7ADBF4362 /* SFProDisplay-Thin.ttf in Resources */,
+				3C177FE979AD446A9233E2C1 /* SFProDisplay-ThinItalic.ttf in Resources */,
+				C81A5CCBF60645C2AD8DA1EC /* SFProDisplay-Ultralight.ttf in Resources */,
+				302BF9FF4CB0458F856BAB53 /* SFProDisplay-UltralightItalic.ttf in Resources */,
+				18D36246338249F09501BC03 /* Helvetica-Black.ttf in Resources */,
+				116ED615FE8F40318153B766 /* Helvetica-BlackItalic.ttf in Resources */,
+				633743460D0A41208360CD85 /* Helvetica-Bold.ttf in Resources */,
+				0A0974A1003B4EB6B62269CD /* Helvetica-BoldItalic.ttf in Resources */,
+				879B528C02254F9A8C7FEEA7 /* Helvetica-Heavy.ttf in Resources */,
+				5CA55102792948CDA33268B3 /* Helvetica-HeavyItalic.ttf in Resources */,
+				6D5948CC9832452998FF7393 /* Helvetica-Light.ttf in Resources */,
+				9C6C915D9E4F415DBA8F1980 /* Helvetica-LightItalic.ttf in Resources */,
+				3A0AF205ED6B41BFA6A8E5DE /* Helvetica-Medium.ttf in Resources */,
+				9370BC9C482647EC8BA5D204 /* Helvetica-MediumItalic.ttf in Resources */,
+				9277D7278391407ABE45F7E8 /* Helvetica-Regular.ttf in Resources */,
+				945F992F02EE4D8693B9C225 /* Helvetica-RegularItalic.ttf in Resources */,
+				B40B6F6B26D2436CBED5DC67 /* Helvetica-Thin.ttf in Resources */,
+				3FD9E90ABD40417483AB50BD /* Helvetica-ThinItalic.ttf in Resources */,
+				2C8D616526B2C9F6004565B6 /* GoogleService-Info.plist in Resources */,
+				96A69AD595CE4824AB21E6BF /* Helvetica-UltraLight.ttf in Resources */,
+				E2EA4A7EF2E04CCA9C69877B /* Helvetica-UltraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		094BF3837F9B8771CDAD4B7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9C0360DEE376673D910E76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-raboom-raboomTests/Pods-raboom-raboomTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC87392DE4A757C2ACC5BB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-raboom-raboomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86896C91FF9972C190D2224D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C52F626963683A99EAA5C3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-raboom/Pods-raboom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C82EFE0F4518CE2FDA1D0ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-raboom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE257044E8D19AA97D80992E /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* raboomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* raboom */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED73F98BCCA613787965300 /* Pods-raboom-raboomTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = raboomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raboom.app/raboom";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72572B320EDCAF3E43B24011 /* Pods-raboom-raboomTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = raboomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/raboom.app/raboom";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46410DBDA400B21C67CE85F4 /* Pods-raboom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = raboom/raboomDebug.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CW53KR665F;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = raboom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raboom.affiliate.app;
+				PRODUCT_NAME = raboom;
+				PROVISIONING_PROFILE_SPECIFIER = "Provision Profile Dev Raboom";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5894FF3E0AC8AA1CAB9874B /* Pods-raboom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = raboom/raboomRelease.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = CW53KR665F;
+				INFOPLIST_FILE = raboom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raboom.affiliate.app;
+				PRODUCT_NAME = raboom;
+				PROVISIONING_PROFILE_SPECIFIER = "Provision Profile Prod Raboom";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "raboomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "raboom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "raboom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

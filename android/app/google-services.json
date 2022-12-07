@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "64058144301",
+    "project_id": "raboom-app",
+    "storage_bucket": "raboom-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64058144301:android:538c47f65d6042550ceaa4",
+        "android_client_info": {
+          "package_name": "com.raboom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64058144301-uj9lmf7pbdmsun293a04kogcu8jrpt91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raboom",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "64058144301-qjs9tik7cm5nccf1okm1rcpckfku16hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjzxbI7j9Ak0pvZHPmKO6aNoe_RaEJLDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64058144301-qjs9tik7cm5nccf1okm1rcpckfku16hk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64058144301-1ae72n1un4597m3uvuod78ieord759go.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.raboom.affiliate.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

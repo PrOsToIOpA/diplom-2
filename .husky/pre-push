@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#yarn run tsc || echo Failed to compile.\nRun yarn ts in project\'s dir for more details
+yarn run tsc
